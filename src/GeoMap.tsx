@@ -17,7 +17,7 @@ const GeoMap: React.FC = () => {
   const [Area, setarea] = useState<number | 0>(0);
 
   useEffect(() => {
-    mapboxgl.accessToken = "pk.eyJ1IjoibWVkbWFrcmluaSIsImEiOiJjbGRtemlnZXIwZWc0NDBteHJlY3BnZTZyIn0.M9rq26Jqma0_d0-1k5Tr6A";
+    mapboxgl.accessToken = "pk.eyJ1IjoibWVkbWFrcmluaSIsImEiOiJjbGR1bzF2d20wMDY0M29wb3Jzcnk3MGFqIn0.T3zW6ens-6wjKr68fyS4gw";
     const initializeMap = ({ setMap, setDraw }: any) => {
       const map = new mapboxgl.Map({
         container: "map",
